@@ -10,6 +10,7 @@ from queue import Queue
 from optparse import OptionParser
 import time,sys,socket,threading,logging,urllib.request,random
 import os
+os.System('clear')
 
 def user_agent():
 	global uagent
@@ -65,13 +66,14 @@ print("""\033[91m
 | | | | | | |/ _ \/ __|   / _ \| __| __/ _` |/ __| |/ /
 | |_| | |_| | (_) \__ \  / ___ \ |_| || (_| | (__|   <
 |____/|____/ \___/|___/ /_/   \_\__|\__\__,_|\___|_|\_\
-             ______________________
-             | Version : 0.0.1v   |
-             | devloper : Haitam🇲🇦|
-             | Fuck Israel 🖕🏿 💩  |   
-             |____________________|                      
+            
+              Version : 0.0.1v   
+              developer : Haitam
+              Fuck Israel  💩  
+                               
 \033[0m""")  
 print("\033[91mAnounymous Syria\033[0m")
+print("\033[91mRecildo L7akem My Friend\033[0m")
 	
 def dos():
 	while True:
@@ -93,7 +95,8 @@ def usage():
 	-h : help
 	-s : server ip
 	-p : port default 80
-	-t : turbo default 135 \033[0m''')
+	-t : turbo default 135
+        Ex : python Syria.py -s (ip) -p 80 -t 135\033[0m''')
 	sys.exit()
 
 
