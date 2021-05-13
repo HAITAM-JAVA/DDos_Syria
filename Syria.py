@@ -70,7 +70,9 @@ print("""\033[91m
               developer : Haitam
               Fuck Israel  💩        
 \033[0m""")  
+print("\033[91mDevelpoer : Haitam\033[0m")
 print("\033[91mLeader : Belil Omar\033[0m")
+print("\033[91mAssistant : Majd Al Halabi\033[0m")
 print("\033[91morganisation : Anounymous Syria\033[0m")
 print("\033[91mMembers : Haitam ~ Recildo l7akem ~ Majd Al Halabi ~ Belil Omar\033[0m")
 	
