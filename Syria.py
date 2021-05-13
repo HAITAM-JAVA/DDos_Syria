@@ -66,13 +66,13 @@ print("""\033[91m
 | |_| | |_| | (_) \__ \  / ___ \ |_| || (_| | (__|   <
 |____/|____/ \___/|___/ /_/   \_\__|\__\__,_|\___|_|\_\
             
-              Version : 0.0.1v   
+              Version : 0.10.0v 
               developer : Haitam
               Fuck Israel  💩        
 \033[0m""")  
 print("\033[91mLeader : Belil Omar\033[0m")
 print("\033[91morganisation : Anounymous Syria\033[0m")
-print("\033[91mMembers : Recildo l7akem ~ Majd Al Halabi ~ Belil Omar\033[0m")
+print("\033[91mMembers : Haitam ~ Recildo l7akem ~ Majd Al Halabi ~ Belil Omar\033[0m")
 	
 def dos():
 	while True:
