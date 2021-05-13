@@ -68,11 +68,11 @@ print("""\033[91m
             
               Version : 0.0.1v   
               developer : Haitam
-              Fuck Israel  💩  
-                               
+              Fuck Israel  💩        
 \033[0m""")  
-print("\033[91mAnounymous Syria\033[0m")
-print("\033[91mRecildo L7akem My Friend\033[0m")
+print("\033[91mLeader : Belil Omar\033[0m")
+print("\033[91morganisation : Anounymous Syria\033[0m")
+print("\033[91mMembers : Recildo l7akem ~ Majd Al Halabi ~ Belil Omar\033[0m")
 	
 def dos():
 	while True:
@@ -89,7 +89,7 @@ def dos2():
 
 
 def usage():
-	print ('''
+	print ('''\033[91m
 	usage : python3 hammer.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
