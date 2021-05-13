@@ -59,7 +59,7 @@ def down_it(item):
 	except socket.error as e:
 		print("\033[91mno connection! server maybe Hacked\033[0m")
 		os.system("clear")
-print("""
+print("""\033[91m
  ____  ____                 _   _   _             _
 |  _ \|  _ \  ___  ___     / \ | |_| |_ __ _  ___| | __
 | | | | | | |/ _ \/ __|   / _ \| __| __/ _` |/ __| |/ /
@@ -70,8 +70,8 @@ print("""
              | devloper : Haitam🇲🇦|
              | Fuck Israel 🖕🏿 💩  |   
              |____________________|                      
-""")  
-print("Anounymous Syria")
+\033[0m""")  
+print("\033[91mAnounymous Syria\033[0m")
 	
 def dos():
 	while True:
