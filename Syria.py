@@ -10,7 +10,6 @@ from queue import Queue
 from optparse import OptionParser
 import time,sys,socket,threading,logging,urllib.request,random
 import os
-os.System('clear')
 
 def user_agent():
 	global uagent
@@ -59,7 +58,7 @@ def down_it(item):
 			time.sleep(.1)
 	except socket.error as e:
 		print("\033[91mno connection! server maybe Hacked\033[0m")
-		os.system("clear")
+os.system('clear')
 print("""\033[91m
  ____  ____                 _   _   _             _
 |  _ \|  _ \  ___  ___     / \ | |_| |_ __ _  ___| | __
