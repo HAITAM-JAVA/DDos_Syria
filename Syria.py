@@ -75,7 +75,7 @@ print("\033[91mLeader : Belil Omar\033[0m")
 print("\033[91mAssistant : Majd Al Halabi\033[0m")
 print("\033[91morganisation : Anounymous Syria\033[0m")
 print("\033[91mMembers : Haitam ~ Recildo l7akem ~ Majd Al Halabi ~ Belil Omar\033[0m")
-	
+print(\033[94mSamsung Galaxy A11 Hacked\033[0m")	
 def dos():
 	while True:
 		item = q.get()
